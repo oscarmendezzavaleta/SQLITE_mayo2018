@@ -11,7 +11,9 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private EditText otxtprecio, otxtcodigo , otxtdescripcion ;
+    private EditText otxtprecio;
+    private EditText otxtcodigo ;
+     private EditText otxtdescripcion ;
 
 
     @Override
