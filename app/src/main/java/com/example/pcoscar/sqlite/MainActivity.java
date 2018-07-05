@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         otxtcodigo=findViewById(R.id.txtcodigo);
         otxtdescripcion=findViewById(R.id.txtdescripcion);
-        otxtprecio=findViewById(R.id.txtprecio);
+        otxtprecio=findViewById(R.id.txtprecio)
 
 
 
