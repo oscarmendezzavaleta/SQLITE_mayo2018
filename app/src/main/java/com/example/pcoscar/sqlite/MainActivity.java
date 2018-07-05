@@ -18,12 +18,21 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        otxtcodigo=findViewById(R.id.txtcodigo);
-        otxtdescripcion=findViewById(R.id.txtdescripcion);
-        otxtprecio=findViewById(R.id.txtprecio)
+        try {
+            otxtcodigo=findViewById(R.id.txtcodigo);
+            otxtdescripcion=findViewById(R.id.txtdescripcion);
+            otxtprecio=findViewById(R.id.txtprecio);
+        }catch (Exception e )
+        {
+
+        }
+
+
 
 
 
